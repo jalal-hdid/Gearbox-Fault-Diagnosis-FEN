@@ -1,4 +1,4 @@
-# Gearbox-Fault-Diagnosis-FEN
+# Gearbox Fault Diagnosis using Feature Engineering and Machine Learning
 Python implementation of the proposed feature engineering (FEN) and machine learning framework for gearbox fault diagnosis using vibration signals.
 
 ## Overview
@@ -21,7 +21,7 @@ The notebook is structured into the following main stages:
 
 **II. Feature extraction and datasets preparation**
    - II-1. Raw data loading (Training and Testing)
-   - II-2. Feature extraction function (13 methods)
+   - II-2. Feature extraction function (using 13 time- and frequency-domain descriptors)
    - II-3. Raw data segmentation and feature extraction
    - II-4. Extracted data loading
    - II-5. Interleaving extracted data (parallel interleaved method)
@@ -30,14 +30,14 @@ The notebook is structured into the following main stages:
 **III. Hyperparameter optimization and feature selection**
    - III-1. Interleaved datasets loading
    - III-2. Preprocessing: detecting and removing constant features (Variance = 0)
-   - III-3. Pipeline and Grid Search Cross-Validation
+   - III-3. Pipeline and GridSearchCV-based cross-validation
    - III-4. Grid results and metrics displaying
    - III-5. Stability (Feature frequency voting)
    - III-6. Feature correlation (stable features filtering)
 
 **IV. Statistical and frequency analysis of the raw vibration signals**
    - Raw vibration signals loading
-   - Statistical and frequencial descriptor computation of raw signals (a1–a4)
+   - Statistical and frequency-domain descriptor computation of raw signals (a1–a4)
    - Saving the results
 
 **V. Final Machine Learning Classification**
@@ -49,7 +49,7 @@ The notebook is structured into the following main stages:
 ## Dataset Availability
 The original gearbox vibration dataset used in this study is publicly available through Kaggle:
 
-[https://www.kaggle.com/datasets/brjapon/gearbox-fault-diagnosis]
+https://www.kaggle.com/datasets/brjapon/gearbox-fault-diagnosis
 
 ## Requirements
 The implementation requires Python 3 and the following libraries:
@@ -63,4 +63,4 @@ The implementation requires Python 3 and the following libraries:
 - seaborn
 
 ## How to Run
-The notebook can be executed directly using Google Colab Notebook environment.
+The notebook can be executed directly using Google Colab or a local Jupyter Notebook environment.
