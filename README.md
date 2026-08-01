@@ -49,8 +49,6 @@ The notebook is structured into the following main stages:
 ## Dataset Availability
 The original gearbox vibration dataset used in this study is publicly available through Kaggle:
 
-[Gearbox Fault Diagnosis Dataset](https://www.kaggle.com/datasets/brjapon/gearbox-fault-diagnosis)
-
 https://www.kaggle.com/datasets/brjapon/gearbox-fault-diagnosis
 
 ## Requirements
