@@ -49,7 +49,7 @@ The notebook is structured into the following main stages:
    - V-4. Classification reports and confusion matrices results displaying
 
 ## Dataset Availability
-The original gearbox vibration dataset used in this study is publicly available through Kaggle:
+The original gearbox vibration dataset used in this study is publicly available in Kaggle:
 
 https://www.kaggle.com/datasets/brjapon/gearbox-fault-diagnosis
 
