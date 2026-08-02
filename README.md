@@ -4,7 +4,7 @@ Python implementation of the proposed feature engineering (FEN) and machine lear
 ## Overview
 This repository contains the complete implementation of the proposed framework developed for binary gearbox fault diagnosis under ten different operating load conditions (0%–90%). The methodology includes vibration signal processing, feature extraction, feature selection, stability analysis, redundancy filtering, and machine learning classification. 
 
-The implementation corresponds to the workflow described in the research article:
+The implementation corresponds to the workflow described in the research article: 
 "Feature Engineering and Machine Learning for Gearbox Fault Diagnosis and Classification"
 
 ## Repository Content
