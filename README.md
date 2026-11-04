@@ -27,31 +27,25 @@ The notebook is structured into the following main stages:
    - II-3. Raw data segmentation and feature extraction
    - II-4. Extracted data loading
    - II-5. Interleaving extracted data (parallel interleaved method)
-   - II-6. Interleaving raw data (parallel interleaved method)
 
 **III. Hyperparameter optimization and feature selection**
    - III-1. Interleaved datasets loading
-   - III-2. Preprocessing: detecting and removing constant features (Variance = 0)
-   - III-3. Pipeline and GridSearchCV-based cross-validation
-   - III-4. Grid results and metrics displaying
-   - III-5. Stability (Feature frequency voting)
-   - III-6. Feature correlation (stable features filtering)
+   - III-2. Pipeline and GridSearchCV-based cross-validation
+   - III-3. Grid results and metrics displaying
+   - III-4. Stability (Feature frequency voting)
+   - III-5. Feature correlation (stable features filtering)
 
-**IV. Statistical and frequency analysis of the raw vibration signals**
-   - Raw vibration signals loading
-   - Statistical and frequency-domain descriptor computation of raw signals (a1–a4)
-   - Saving the results
-
-**V. Final Machine Learning Classification**
-   - V-1. Datasets loading
-   - V-2. ML Prediction for raw and all extracted data (no feature selection)
-   - V-3. ML Prediction for the selected, stable, and final retained features
-   - V-4. Classification reports and confusion matrices results displaying
+**IV. Final Machine Learning Classification**
+   - IV-1. Datasets loading
+   - IV-2. Best model and selected feature initialization
+   - IV-3. ML Prediction for the final selected features
+   - IV-4. Classification reports and confusion matrices results displaying
 
 ## Dataset Availability
 The original gearbox vibration dataset used in this study is publicly available in Kaggle:
 
 https://www.kaggle.com/datasets/brjapon/gearbox-fault-diagnosis
+https://www.kaggle.com/code/aleemjuma/gearbox-vibration-analysis-time-and-frequency/notebook
 
 ## Requirements
 The implementation requires Python 3 and the following libraries:
